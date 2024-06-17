@@ -1,0 +1,5 @@
+com\app\entity\Employee.class
+com\app\team1\technotribe\krasvbank\EmailServiceImplTest.class
+com\app\team1\technotribe\krasvbank\NotificationControllerTest.class
+com\app\team1\technotribe\krasvbank\EmailDetailsDtoTest.class
+com\app\team1\technotribe\krasvbank\MailConfigTest.class
