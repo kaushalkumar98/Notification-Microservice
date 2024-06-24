@@ -32,7 +32,7 @@ pipeline {
             steps {
                 // Run SonarQube analysis
                 withSonarQubeEnv('server sonar') {
-                    bat 'mvn sonar:sonar -Dsonar.projectKey=Notification-MicroService -Dsonar.projectName=Notification-MicroService -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_8345c47540ef8fbd48bf0eef7325452dc30654df'
+                    bat 'mvn sonar:sonar -Dsonar.projectKey=Notification_service -Dsonar.projectName=Notification_service -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_8ace4a0e4caa0ce2db64bbaa2ae493aed2457d30'
                 }
             }
         }
